@@ -120,7 +120,7 @@ main{
 	justify-content: space-around;
 }
 .belso img{
-	max-width: 230px;
+	max-width: 210px;
 	border: 2px solid black;
 	display: inline-block;
 	margin: 0 10px;
@@ -134,7 +134,7 @@ main{
 	}
 .felirat img{
 		margin: 0;
-		max-width: 300px;
+		max-width: 210px;
 	}
 
 .felirat p{
