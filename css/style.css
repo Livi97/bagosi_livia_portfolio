@@ -1,0 +1,175 @@
+body {
+	/*background-color: #fff5cc;*/
+	/*background-repeat: url("css/pics/background.png");*/
+	color: #00134d;
+	/*color: #000033;*/
+	font-size: 16px;
+	line-height: 23px;
+	font-family: Georgia, Verdana, serif;
+	margin: 0;
+
+}	
+#fejlec {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bolder;
+}
+
+.menupont {
+	display:  inline-block;
+	background-color: #997a00;
+	padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.menupont:hover{
+	background-color: #332900;
+	transition: 1s
+}
+
+.menupont a {
+	color: white;
+	text-decoration: none;
+}
+
+#menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: #997a00;
+}	
+
+
+h1{
+	color: #4d3d00;
+	padding: 20px 0 15px 0;
+}
+
+h2 {
+	color:#00134d;
+	padding: 5px;
+}
+
+main{
+	padding: 20px;
+	}
+
+#torzs1 {
+	background-color: rgba(204, 163, 0, 0.8);
+	max-width: 90%;
+	margin: 10px auto;
+	text-align: center;
+	
+}
+
+#elsop{
+	padding: 15px;
+}
+
+#kep1 img{
+	box-shadow: 10px 10px 5px #000033;
+	max-width: 60%
+}
+
+.csoport {
+	background-color: rgba(204, 163, 0, 0.8);
+	max-width: 90%;
+	margin: auto;
+	text-align: center;
+	padding: 10px auto;
+
+}
+
+.kep{
+	display: inline-block;
+	padding: 10px;
+
+}
+
+.kep img{
+	max-width: 300px;
+	border: 2px solid black;
+}
+
+#torzs3{
+	background-color: rgba(204, 163, 0, 0.7);
+	max-width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+#torzs2{
+	background-color: rgba(204, 163, 0, 0.8);
+	max-width: 88%;
+	margin: 22px auto;
+	padding: 10px;
+
+}
+.nyithato {
+	background-color: rgba(204, 163, 0, 0.7);
+	margin: 5px;
+	padding: 10px;
+	border-radius: 15px 0;
+}
+
+/*utazások*/
+
+.belso{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.belso img{
+	max-width: 300px;
+	border: 2px solid black;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.felirat{
+		position: relative;
+		overflow: hidden;
+		padding: 0;
+		margin: 1rem 0;
+	}
+.felirat img{
+		margin: 0;
+		max-width: 300px;
+	}
+
+.felirat p{
+		position: relative;
+		bottom: -100%;
+		left:0;
+		width: 100%;
+		padding: .2rem .2rem .2rem .5rem;
+		text-align: left;
+		background-color: rgba(255,255,255,.7);
+		transition: .3s;
+}
+.felirat:hover p{
+		bottom:0;
+	}
+.felirat span{
+		position: absolute;
+		top: -100%;
+		left:0;
+		width: 100%;
+		padding: .2rem .2rem .2rem .5rem;
+		text-align: left;
+		background-color: rgba(255,255,255,.7);
+		transition: .3s;
+	}
+.felirat:hover span{
+		top:0;
+	}
+
+.kod {
+	display: inline-block;
+}
+
+#terv img {
+	max-height: 900px;
+	box-shadow: 10px 10px 5px #000033;
+	max-width: 90%
+}
