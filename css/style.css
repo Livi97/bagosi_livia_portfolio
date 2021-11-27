@@ -87,7 +87,7 @@ main{
 }
 
 .kep img{
-	max-width: 200px;
+	max-width: 250px;
 	border: 2px solid black;
 }
 
@@ -120,7 +120,7 @@ main{
 	justify-content: space-around;
 }
 .belso img{
-	max-width: 300px;
+	max-width: 250px;
 	border: 2px solid black;
 	display: inline-block;
 	margin: 0 10px;
